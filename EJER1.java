@@ -9,31 +9,28 @@ public class EJER1
         int num;
         Scanner sc = new Scanner (System.in);
 
-        System.out.println("Escribe el numero");
-        num = sc.nextInt();
 
-        if (num == 240){
 
-            System.out.println("Muy bien, has acertado.");
+
+        System.out.println("Escribe el numero");       //Aqui se escribe el numero secreto
+
+        if (num == 230){
+
+            System.out.println("Muy bien, has acertado.");      //Comentario que sale al acertar el numero
 
         }
 
+
+
+
         else {
 
-            System.out.println("Has fallado.");
+            System.out.println("Has fallado.");         //Comentario que sale al fallar el numero
             sc.close ();
 
         }
 
-
-
-
-
-
-
     }
-
-
 
 
 }
